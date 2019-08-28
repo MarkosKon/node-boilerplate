@@ -1,0 +1,17 @@
+{
+  "name": "node-project-boilerplater",
+  "description": "Boilerplate for node projects",
+  "private": true,
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Mark",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:m": "nodemon src/index.js --ignore data"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "nodemon": "^1.19.1"
+  }
+}
