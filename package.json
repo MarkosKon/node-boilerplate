@@ -8,10 +8,18 @@
   "license": "MIT",
   "scripts": {
     "start": "node src/index.js",
-    "start:m": "nodemon src/index.js --ignore data"
+    "start:m": "nodemon src/index.js --ignore data",
+    "lint": "eslint --ext js src",
+    "format": "eslint --ext js --fix src"
   },
   "devDependencies": {
     "eslint": "^6.2.2",
-    "nodemon": "^1.19.1"
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2"
   }
 }
