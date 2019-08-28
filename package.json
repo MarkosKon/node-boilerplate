@@ -1,5 +1,5 @@
 {
-  "name": "node-project-boilerplater",
+  "name": "node-boilerplate",
   "description": "Boilerplate for node projects",
   "private": true,
   "version": "1.0.0",
@@ -33,6 +33,13 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "dependencies": {
+    "inquirer": "^7.0.0",
+    "mkdirp": "^0.5.1",
+    "node-fetch": "^2.6.0",
+    "progress": "^2.0.3",
+    "yargs": "^14.0.0"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
