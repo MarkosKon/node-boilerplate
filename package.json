@@ -37,7 +37,7 @@
   "dependencies": {
     "inquirer": "^7.0.0",
     "mkdirp": "^0.5.1",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "progress": "^2.0.3",
     "yargs": "^14.0.0"
   },
